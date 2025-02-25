@@ -19,15 +19,17 @@
             height: 100vh; /* Ensures full viewport height */
         }
 
-       h1 {
-    padding-top: 180px; /* Default for larger screens */
+h1 {
+    position: relative; /* Ensures it moves independently */
+    top: 50px; /* Moves it down */
 }
 
 @media screen and (max-width: 600px) {
     h1 {
-        padding-top: 200px; /* Push further down on smaller screens */
+        top: 80px; /* Moves it further down on smaller screens */
     }
 }
+
 
         p {
             font-size: 18px;
