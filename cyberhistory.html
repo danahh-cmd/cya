@@ -24,24 +24,32 @@ h1 {
     top: 50px; /* Moves it down */
 }
 
+p {
+    font-size: 18px;
+    margin-top: 20px; /* Provides consistent spacing */
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #765b53;
+    margin-top: 30px; /* Moves the timer a bit lower */
+}
+
 @media screen and (max-width: 600px) {
     h1 {
-        top: 80px; /* Moves it further down on smaller screens */
+        top: 80px; 
+    }
+    p {
+        margin-top: 25px; /* Avoids overlap */
+    }
+    #timer {
+        margin-top: 35px; /* Moves timer slightly further down */
     }
 }
 
 
-        p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
 
-        #timer {
-            font-size: 20px;
-            font-weight: bold;
-            color: #765b53;
-            margin-top: 20px;
-        }
 
         .grid {
             display: grid;
